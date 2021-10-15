@@ -2,7 +2,7 @@
 Companion notebooks to the Hardware Hacking Handbook. These are the Jupyter notebooks found under `labs/`.
 
 # Downloading a ready made VM
-You can get a ready made VM [here](hardwarehackinghandbook.com/Hardware%20Hacking%20Handbook%20Jupyter.ova) (if you are on chrome - copy the URL, the redirect is broken due to HTTPS, it will be fixed shortly). The SHA512 checksum is [here](http://hardwarehackinghandbook.com/Hardware%20Hacking%20Handbook%20Jupyter.ova.sha512sum). It was built using the instructions below. We recommend you use this option, as it is the least error-prone.
+You can get a ready made VM [here](https://hardwarehackinghandbook.com/Hardware%20Hacking%20Handbook%20Jupyter.ova). The SHA512 checksum is [here](https://hardwarehackinghandbook.com/Hardware%20Hacking%20Handbook%20Jupyter.ova.sha512sum). It was built using the instructions below. We recommend you use this option, as it is the least error-prone.
 
 # VM build for Hardware Hacking Handbook
 The `vm-builder` containings the needed vagrant file and scripts for building the HHH Jupyter vm. It should take care of everything needed, including installing packages, installing python modules using pip, enabling needed jupyter extensions, and running jupyter. It's based on chipwhisperer-vagrant.
