@@ -108,6 +108,6 @@ Vagrant.configure("2") do |config|
     docker cp hhhc:/home/user/work/projects/chipwhisperer/0_Hardware_Hacking_Handbook_0/solutions /vagrant
 
     # Zeroize disk to get rid of deleted files from vm image
-    # XXX dd if=/dev/zero of=/tmp/bla bs=1M; sync; rm /tmp/bla
+    dd if=/dev/zero of=/tmp/bla bs=1M oflag=sync conv=fsync; sync; rm /tmp/bla
   SHELL
 end
